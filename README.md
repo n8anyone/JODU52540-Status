@@ -15,7 +15,7 @@ Built specifically for indoor OpenWrt routers (such as the JioRouter AX6000 JIDU
 SSH into your OpenWrt router and run:
 
 ```sh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/__REPO_OWNER__/JODU52540-Status/main/install.sh 2>/dev/null || wget -qO- https://raw.githubusercontent.com/__REPO_OWNER__/JODU52540-Status/main/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/n8anyone/JODU52540-Status/main/install.sh 2>/dev/null || wget -qO- https://raw.githubusercontent.com/n8anyone/JODU52540-Status/main/install.sh)"
 ```
 
 > **Note:** If your router has `curl` installed, it uses `curl`; otherwise, it automatically falls back to `wget` or `uclient-fetch`.
@@ -116,7 +116,7 @@ If you prefer to install manually via SCP or terminal:
 
 1. Clone or download this repository:
    ```sh
-   git clone https://github.com/__REPO_OWNER__/JODU52540-Status.git
+   git clone https://github.com/n8anyone/JODU52540-Status.git
    cd JODU52540-Status
    ```
 
@@ -165,7 +165,7 @@ uci commit jodu52540
 To completely remove the application:
 
 ```sh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/__REPO_OWNER__/JODU52540-Status/main/uninstall.sh 2>/dev/null || wget -qO- https://raw.githubusercontent.com/__REPO_OWNER__/JODU52540-Status/main/uninstall.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/n8anyone/JODU52540-Status/main/uninstall.sh 2>/dev/null || wget -qO- https://raw.githubusercontent.com/n8anyone/JODU52540-Status/main/uninstall.sh)"
 ```
 
 Or if you have the local repository:

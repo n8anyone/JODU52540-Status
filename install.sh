@@ -7,7 +7,7 @@
 set -e
 
 # Configuration
-GITHUB_REPO="${GITHUB_REPO:-__REPO_OWNER__/JODU52540-Status}"
+GITHUB_REPO="${GITHUB_REPO:-n8anyone/JODU52540-Status}"
 BRANCH="${BRANCH:-main}"
 RAW_BASE="https://raw.githubusercontent.com/${GITHUB_REPO}/${BRANCH}/root"
 

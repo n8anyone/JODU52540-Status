@@ -1,7 +1,7 @@
 #!/bin/sh
 # ==============================================================================
 # JODU52540-Status — Backend Data & Control Bridge
-# https://github.com/JODU52540-Status
+# https://github.com/n8anyone/JODU52540-Status
 # ==============================================================================
 
 ACTION=$1
