@@ -1,0 +1,23 @@
+{
+    "luci-app-jodu52540-status": {
+        "description": "Grant access to JODU52540 5G Dashboard",
+        "read": {
+            "cgi-io": [ "file" ],
+            "file": {
+                "/usr/libexec/odu-data.sh": [ "exec" ],
+                "/etc/config/jodu52540": [ "r" ],
+                "/etc/config/jodu5164x": [ "r" ],
+                "/tmp/odu_setup.lock": [ "r" ]
+            },
+            "uci": [ "jodu52540", "jodu5164x" ]
+        },
+        "write": {
+            "cgi-io": [ "exec" ],
+            "file": {
+                "/etc/config/jodu52540": [ "w" ],
+                "/etc/config/jodu5164x": [ "w" ]
+            },
+            "uci": [ "jodu52540", "jodu5164x" ]
+        }
+    }
+}
