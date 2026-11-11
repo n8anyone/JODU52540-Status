@@ -6,7 +6,7 @@
 
 A high-performance, real-time **5G NR Telemetry & Control Dashboard** for OpenWrt LuCI web interface.
 
-Built specifically for indoor OpenWrt routers (such as the JioRouter AX6000 JIDU6701, x86_64, MediaTek Filogic, and Qualcomm routers) connected to **Jio AirFiber 5G Outdoor Units (ODU)** and **HFCL 5G CPEs** (*sdxlemur* Qualcomm Snapdragon modems, e.g., JODU52540, JODU5164x).
+Built specifically for indoor OpenWrt routers (such as the JioRouter AX6000 JIDU6701, x86_64, MediaTek Filogic, and Qualcomm routers) connected to **Jio AirFiber 5G Outdoor Units (ODU)** and **HFCL 5G CPEs** (*sdxlemur* Qualcomm Snapdragon modems, e.g., JODU52540).
 
 ---
 
